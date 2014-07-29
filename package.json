@@ -1,0 +1,41 @@
+{
+  "name": "name-that-color",
+  "version": "0.1.0",
+  "description": "A command line utility that uses the library that the name that color project (http://chir.ag/projects/ntc/) uses that also provides additional functionality",
+  "bugs": {
+    "url": "http://github.com/ryanzec/name-that-color/issues"
+  },
+  "contributors": [
+    {
+      "name": "Ryan Zec",
+      "email": "code@ryanzec.com"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.24"
+  },
+  "keywords": [
+    "color",
+    "name that color"
+  ],
+  "main": "./lib/index.js",
+  "bin": {
+    "name-that-color": "./lib/index.js"
+  },
+  "dependencies": {
+    "chalk": "0.5.1",
+    "onecolor": "2.4.1"
+  },
+  "devDependencies": {},
+  "preferGlobal": "true",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ryanzec/name-that-color/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ryanzec/name-that-color.git"
+  }
+}
